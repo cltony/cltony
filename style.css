@@ -1,0 +1,43 @@
+html, body, section{
+	height: 100%;
+	min-width: 992px;
+	min-height: 600px;
+}
+
+section.title {
+	display: flex;
+	background-image: url(images/applespace.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+section.title h1 {
+	margin: top;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 130px;
+	color: white;
+}
+
+section.title h1 span{
+	text-transform: uppercase;
+}
+section.twoColumns {
+	display: flex;
+	background-color: yellow;
+}
+section.twoColumns figure {
+	width: 30%;
+	height: 100%;
+	background-image: url(images/space2.jpg);
+}
+section.twoColumns figcaption {
+	position: relative;
+	position: center;
+	margin: auto;
+	width: 70%;
+	height: 100%;
+	margin: 50px;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 30px;
+	color: purple;
+}
